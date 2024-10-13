@@ -32,17 +32,24 @@ There are several types of clusters and HUDs (or ADDs as Mazda calls them, I won
 Additionally, there are (I think) 3 HUD versions: monochrome/colored one for the BM, and a colored one for the BN (different from the BM one!)
 
 <p float="left">
+   
 ![](Images/Cluster_BM_Speedo_P.jpg)
 ![](Images/Cluster_BM_Speedo_single_D.jpg)
+
 </p>
 <p float="left">
+   
 ![](Images/Cluster_BM_Tacho_D.jpg)
 ![](Images/Cluster_BM_Tacho_P.jpg)
+
 </p>
 <p float="left">
+   
 ![](Images/Cluster_BN_Speedo_single_P.jpg)
 ![](Images/Cluster_BN_Speedo_P.jpg)
+
 </p>
+
 ![](Images/Cluster_BN_Tacho_P.jpg)
 
 What i personally used? I have a 2014 BM petrol car (originally no HUD, central speedometer), and moved to a cluster for a petrol BN version with central tachometer and HUD.
@@ -80,8 +87,10 @@ This one is fairly easy - the BN has a different steering wheel (with different 
 You can just get used to it (its a minor thing to be honest), modify the switch assembly (short the buttons) so pressing either always triggers the middle one, or fix it in the same manner as issue number 1 (on that-later).
 
 <p float="left">
+   
 ![](Images/SteeringWheel_BM.jpg)
 ![](Images/SteeringWheel_BN.jpg)
+
 </p>
 
 ##### 3. You still get one more DTC - the buttons (refered to as Cluster Switch by Mazda) on the door side of the steering wheel do not work
@@ -107,15 +116,19 @@ To test that, you can pop out the T pin out of the Instrument Cluster harness pl
 Now, to the hardware differences. Here are some pictures of switch clusters found in BMs:
 
 <p float="left">
+   
 ![](Images/ClusterSwitch_BM.png)
 ![](Images/ClusterSwitch_BM_2.png)
+
 </p>
 
 And here are ones found in BNs:
 
 <p float="left">
+   
 ![](Images/ClusterSwitch_BN.png)
 ![](Images/ClusterSwitch_BN_2.png)
+
 </p>
 
 Notable differences: 
@@ -128,8 +141,10 @@ Here is what the insides look like (pictures are not mine):
 
 ![](Images/ClusterSwitch_Schematic_BM_2.png)
 <p float="left">
+   
 ![](Images/ClusterSwitch_PCB_Top.png)
 ![](Images/ClusterSwitch_PCB_Bot.png)
+
 </p>
 
 Red circles are the missing parts that needed to be moved from the original switch cluster, purple circles are populated if you have manual beam control (like below).
@@ -221,5 +236,5 @@ The HUD can work with Mazda Navigation to display directions, but for some reaso
 
 ## Meta
 
-Krzysztof Belewicz – belewicz@protonmail.com
+Krzysztof Belewicz – belewicz@protonmail.com  
 The [license](https://github.com/CannaCardo/Mazda3_IC_MITM/blob/main/LICENSE) lets you freely use it, enjoy.
