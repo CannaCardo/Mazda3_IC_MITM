@@ -8,7 +8,7 @@ Well, lets just say that I'm stubborn and got a good deal on a BN cluster.
 
 > [!NOTE]
 > Prototype in progress, stay tuned.
-> Tests should wrap up before december 2024
+> RPM correction works, still working on INFO button
 
 
 # Tools and know-how you will need
@@ -53,7 +53,7 @@ Additionally, there are (I think) 3 HUD versions: monochrome/colored one for the
 ![](Images/Cluster_BN_Tacho_P.jpg)
 
 What i personally used? I have a 2014 BM petrol car (originally no HUD, central speedometer), and moved to a cluster for a petrol BN version with central tachometer and HUD.
-Original IC part number: BHR1 55 430, new one: **don't remember, will check**.
+Original IC part number: BHR1 55 430, new one: D23C 55 430.
 
 
 # What actually happens if you just... plug it in?
@@ -209,9 +209,10 @@ Aside from components listed in BOM, you need to buy a chinese 24pin automotive 
 
 At this point - flash the firmware and test it in the car to verify that all is soldered properly. Now, this is likely overkill, but consider adding a conformal coating. Depending on your region, you may get slight condensation on the board. If you do - remember to mask the programming header and TEST IT FIRST.
 
-![](Images/PCB_Mounted_conformal.png)
+A simple 3D printed case is included in the project, but you can also use a large heatshrink tube. In both cases - consider adding some padding and/or securing it to the cluster itself. A loose box/board may bounce off things and make annoying sounds. There is also an already padded cavity on the right side of the cluster (looking from the driver perspective) - right where the cluster connector is. I have personally just shoved the encased harness extender there and no annoying sounds are present.
 
-A simple 3D printed case is included in the project, but you can also use a large heatshrink tube. In both cases - consider adding some padding and/or securing it to the cluster itself. A loose box/board may bounce off things and make annoying sounds.
+> [!NOTE]
+> On the photos, the J2 jumper is present. It is only used for debug, and will cause the LEDs to flash and burn more power than needed. Remember to take it off before you bury it inside your car.
 
 ![](Images/PCB_Case.png)
 ![](Images/PCB_Case_mounted.png)
